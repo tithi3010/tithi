@@ -10,4 +10,5 @@ function sq(x){
     ans = x*x;
     return ans;
 }
-console.log("the answer is:" + sq(4));
+console.log("the answer is:" + sq(12));
+
