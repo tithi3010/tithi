@@ -12,3 +12,12 @@ function sq(x){
 }
 console.log("the answer is:" + sq(12));
 
+
+function greet (name,cb){
+    console.log("hello,"+ name +"!");
+    cb();
+}
+function gdb() {
+    console.log("goodbye!");
+}
+greet("tithi", gdb);
